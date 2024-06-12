@@ -1,116 +1,132 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Headings do H1 ao H6</title>
+    <title>Headings from H1 to H6</title>
+    <style>
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .subsection-title {
+            margin-left: 20px;
+            font-style: italic;
+        }
+        .content-paragraph {
+            margin-bottom: 10px;
+        }
+        .content-subitem {
+            margin-left: 40px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sumário</h1>
-    <p>Prefácio à nova edição</p>
+    <h1 id="summary" class="section-title">Sumário</h1>
+    <p class="content-paragraph">Prefácio à nova edição</p>
     
-    <h2>O coração da Bíblia</h2>
+    <h2 id="heart-of-the-bible" class="section-title">O coração da Bíblia</h2>
     
-    <h3>Nota ao leitor</h3>
-    <h3>O coração da Bíblia</h3>
-    <h3>O hábito da leitura bíblica</h3>
-    <h3>Frequentar a igreja como ato de adoração</h3>
-    <h3>Declarações notáveis a respeito da Bíblia</h3>
+    <h3 id="note-to-reader" class="subsection-title">Nota ao leitor</h3>
+    <h3 id="heart-of-the-bible-sub" class="subsection-title">O coração da Bíblia</h3>
+    <h3 id="habit-of-bible-reading" class="subsection-title">O hábito da leitura bíblica</h3>
+    <h3 id="attending-church" class="subsection-title">Frequentar a igreja como ato de adoração</h3>
+    <h3 id="notable-statements" class="subsection-title">Declarações notáveis a respeito da Bíblia</h3>
 
-    <h2>Os antecedentes da Bíblia</h2>
+    <h2 id="bible-background" class="section-title">Os antecedentes da Bíblia</h2>
 
-    <h3>O que a Bíblia é</h3>
-    <h3>Como a Bíblia está organizada</h3>
-    <h3>De que a Bíblia trata?</h3>
-    <h3>O pensamento central de cada livro da Bíblia</h3>
-    <h3>O ambiente da Bíblia</h3>
+    <h3 id="what-is-the-bible" class="subsection-title">O que a Bíblia é</h3>
+    <h3 id="bible-organization" class="subsection-title">Como a Bíblia está organizada</h3>
+    <h3 id="bible-subject" class="subsection-title">De que a Bíblia trata?</h3>
+    <h3 id="central-thought" class="subsection-title">O pensamento central de cada livro da Bíblia</h3>
+    <h3 id="bible-environment" class="subsection-title">O ambiente da Bíblia</h3>
 
-    <h4>Primeiro menor importância</h4>
-    <h4>1. Por que o ambiente é importante</h4>
-    <h4>2. O antigo Oriente Médio</h4>
-    <h4>3. As potências mundiais dos tempos bíblicos</h4>
-    <h4>4. Estradas e viagens nos tempos bíblicos</h4>
-    <h4>5. A Terra Prometida: Israel</h4>
-    <h4>6. A Cidade Santa: Jerusalém</h4>
+    <h4 id="lesser-importance" class="content-subitem">Primeiro menor importância</h4>
+    <h4 id="importance-of-environment" class="content-subitem">1. Por que o ambiente é importante</h4>
+    <h4 id="ancient-middle-east" class="content-subitem">2. O antigo Oriente Médio</h4>
+    <h4 id="world-powers" class="content-subitem">3. As potências mundiais dos tempos bíblicos</h4>
+    <h4 id="roads-and-travels" class="content-subitem">4. Estradas e viagens nos tempos bíblicos</h4>
+    <h4 id="promised-land" class="content-subitem">5. A Terra Prometida: Israel</h4>
+    <h4 id="holy-city" class="content-subitem">6. A Cidade Santa: Jerusalém</h4>
 
-    <h3>A escrita, os livros e a Bíblia</h3>
+    <h3 id="writing-books-and-bible" class="subsection-title">A escrita, os livros e a Bíblia</h3>
 
-    <h2>Antigo Testamento</h2>
+    <h2 id="old-testament" class="section-title">Antigo Testamento</h2>
     
-    <h3>No princípio</h3>
-    <h4>Gênesis 1 - 11</h4>
+    <h3 id="in-the-beginning" class="subsection-title">No princípio</h3>
+    <h4 id="genesis-1-11" class="content-subitem">Gênesis 1 - 11</h4>
     
-    <h3>O período dos patriarcas</h3>
-    <h4>Gênesis 12 - 50</h4>
+    <h3 id="patriarch-period" class="subsection-title">O período dos patriarcas</h3>
+    <h4 id="genesis-12-50" class="content-subitem">Gênesis 12 - 50</h4>
 
-    <h3>Israel sai do Egito</h3>
-    <h4>Êxodo - Deuteronômio</h4>
+    <h3 id="exodus-from-egypt" class="subsection-title">Israel sai do Egito</h3>
+    <h4 id="exodus-deuteronomy" class="content-subitem">Êxodo - Deuteronômio</h4>
 
-    <h3>A conquista e a colonização de Canaã</h3>
-    <h4>Josué - Rute</h4>
+    <h3 id="conquest-of-canaan" class="subsection-title">A conquista e a colonização de Canaã</h3>
+    <h4 id="joshua-ruth" class="content-subitem">Josué - Rute</h4>
 
-    <h3>A monarquia: Davi, Salomão e o reino dividido</h3>
-    <h4>1 Samuel - 2 Crônicas</h4>
+    <h3 id="monarchy" class="subsection-title">A monarquia: Davi, Salomão e o reino dividido</h3>
+    <h4 id="samuel-chronicles" class="content-subitem">1 Samuel - 2 Crônicas</h4>
 
-    <h3>O exílio na Babilônia e o regresso</h3>
-    <h4>Esdras - Ester</h4>
+    <h3 id="babylonian-exile" class="subsection-title">O exílio na Babilônia e o regresso</h3>
+    <h4 id="ezra-esther" class="content-subitem">Esdras - Ester</h4>
 
-    <h3>Poesia e Sabedoria</h3>
-    <h4>Jó - Cântico dos Cânticos</h4>
+    <h3 id="poetry-wisdom" class="subsection-title">Poesia e Sabedoria</h3>
+    <h4 id="job-song-of-songs" class="content-subitem">Jó - Cântico dos Cânticos</h4>
 
-    <h3>Os profetas</h3>
-    <h4>Isaías - Malaquias</h4>
+    <h3 id="prophets" class="subsection-title">Os profetas</h3>
+    <h4 id="isaiah-malachi" class="content-subitem">Isaías - Malaquias</h4>
 
-    <h3>O Messias no AT</h3>
+    <h3 id="messiah-in-ot" class="subsection-title">O Messias no AT</h3>
 
-    <h2>Os 400 anos entre os Testamentos</h2>
+    <h2 id="400-years" class="section-title">Os 400 anos entre os Testamentos</h2>
     
-    <h3>Novo Testamento</h3>
+    <h3 id="new-testament" class="subsection-title">Novo Testamento</h3>
     
-    <h4>Visão panorâmica da vida de Jesus</h4>
-    <h4>Jesus era o Filho de Deus?</h4>
-    <h4>Como era Jesus?</h4>
-    <h4>Os doze discípulos</h4>
-    <h4>Os quatro evangelhos</h4>
-    <h4>Harmonia dos evangelos</h4>
-    <h5>Mateus - João</h5>
+    <h4 id="overview-life-jesus" class="content-subitem">Visão panorâmica da vida de Jesus</h4>
+    <h4 id="jesus-son-of-god" class="content-subitem">Jesus era o Filho de Deus?</h4>
+    <h4 id="how-was-jesus" class="content-subitem">Como era Jesus?</h4>
+    <h4 id="twelve-disciples" class="content-subitem">Os doze discípulos</h4>
+    <h4 id="four-gospels" class="content-subitem">Os quatro evangelhos</h4>
+    <h4 id="harmony-of-gospels" class="content-subitem">Harmonia dos evangelhos</h4>
+    <h5 id="matthew-john" class="content-subitem">Mateus - João</h5>
 
-    <h4>A igreja primitiva</h4>
-    <h5>Atos - Judas</h5>
+    <h4 id="early-church" class="content-subitem">A igreja primitiva</h5>
+    <h5 id="acts-jude" class="content-subitem">Atos - Judas</h5>
 
-    <h4>O porvir</h4>
-    <h5>Apocalipse</h5>
+    <h4 id="future" class="content-subitem">O porvir</h4>
+    <h5 id="revelation" class="content-subitem">Apocalipse</h5>
 
-    <h2>Depois do Novo Testamento</h2>
+    <h2 id="after-new-testament" class="section-title">Depois do Novo Testamento</h2>
 
-    <h3>História concisa da igreja ocidental</h3>
-    <h3>História cinciisa da Terra Santa e dos judeus desde a época de Cristo</h3>
+    <h3 id="concise-church-history" class="subsection-title">História concisa da igreja ocidental</h3>
+    <h3 id="concise-holy-land-history" class="subsection-title">História concisa da Terra Santa e dos judeus desde a época de Cristo</h3>
 
-    <h2>Para ler e estudar a Bíblia</h2>
+    <h2 id="reading-and-studying-bible" class="section-title">Para ler e estudar a Bíblia</h2>
 
-    <h3>Lendo a Bíblia do começo ao fim</h3>
-    <h3>Ferramentas básicas para o estudo bíblico</h3>
+    <h3 id="reading-bible" class="subsection-title">Lendo a Bíblia do começo ao fim</h3>
+    <h3 id="study-tools" class="subsection-title">Ferramentas básicas para o estudo bíblico</h3>
 
-    <h2>Material suplementar</h2>
+    <h2 id="supplementary-material" class="section-title">Material suplementar</h2>
 
-    <h3>Como a Bíblia chegou até nós</h3>
-    <h4>1. Como foram reunidos os livros da Bíblia</h4>
-    <h4>2. Como o texto da Bíblia foii preservado</h4>
-    <h4>3. Temos o texto "original" da Bíblia?</h4>
-    <h4>4. Versões da Bíblia em inglês</h4>
-    <h4>5. Os apócrifos</h4>
+    <h3 id="how-bible-came-to-us" class="subsection-title">Como a Bíblia chegou até nós</h3>
+    <h4 id="compilation-of-books" class="content-subitem">1. Como foram reunidos os livros da Bíblia</h4>
+    <h4 id="preservation-of-text" class="content-subitem">2. Como o texto da Bíblia foi preservado</h4>
+    <h4 id="original-text" class="content-subitem">3. Temos o texto "original" da Bíblia?</h4>
+    <h4 id="english-versions" class="content-subitem">4. Versões da Bíblia em inglês</h4>
+    <h4 id="apocrypha" class="content-subitem">5. Os apócrifos</h4>
 
-    <h3>Redescobrindo o passado bíblico</h3>
-    <h3>A casa de Herodes</h3>
-    <h3>Tabelas de distâncias</h3>
-    <h4>1. Cidades do Antigo Testamento</h4>
-    <h4>2. Cidades do Novo Testamento(evangelhos)</h4>
-    <h4>3. Cidades do Novo Testamento(Atos)</h4>
+    <h3 id="rediscovering-biblical-past" class="subsection-title">Redescobrindo o passado bíblico</h3>
+    <h3 id="herods-house" class="subsection-title">A casa de Herodes</h3>
+    <h3 id="tables-of-distances" class="subsection-title">Tabelas de distâncias</h3>
+    <h4 id="ot-cities" class="content-subitem">1. Cidades do Antigo Testamento</h4>
+    <h4 id="nt-cities-gospels" class="content-subitem">2. Cidades do Novo Testamento (evangelhos)</h4>
+    <h4 id="nt-cities-acts" class="content-subitem">3. Cidades do Novo Testamento (Atos)</h4>
 
-    <h3>O calendário judaico</h3>
-    <h2>Orações</h2>
-    <h2>Homenagem à memória de Henry H. Halley</h2>
-    <h2>Bibliografia</h2>
-    <h2>Índice de assuntos</h2>
+    <h3 id="jewish-calendar" class="subsection-title">O calendário judaico</h3>
+    <h2 id="prayers" class="section-title">Orações</h2>
+    <h2 id="tribute-henry-halley" class="section-title">Homenagem à memória de Henry H. Halley</h2>
+    <h2 id="bibliography" class="section-title">Bibliografia</h2>
+    <h2 id="subject-index" class="section-title">Índice de assuntos</h2>
 </body>
 </html>
