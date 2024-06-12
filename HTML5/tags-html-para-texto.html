@@ -8,6 +8,11 @@
         h1 {
             background: red;
         }
+
+        .img-in-text {
+            width: 350px;
+            height: 270px;
+        }
     </style>
 </head>
 <body>
@@ -16,11 +21,34 @@
         <strong>Já a tag strong deiax o texto mais forte! 
             Portanto , muda o estado semântico.</strong><br>
         <i>A tag itálico deixa tudo italico, muda o estado físico</i><br>
-        <em>Dá ênfase a palavra, muda o estado semântico.</em></p><br>
+        <em>Dá ênfase a palavra, muda o estado semântico.</em><br>
+        Procure sempre usar as tags pelo sentido <del>físico</del> <ins><strong>semântico</strong></ins>! </p>
+
+        <hr>
 
     <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/strong" target="_blank">Link</a>
 
     <a href="https://www.todamateria.com.br/historia-dos-dinossauros/" target="_blank">
-    <img src="https://static.todamateria.com.br/upload/hi/st/historia-dos-dinossauros-og.jpg" alt="Um dinossauro feroz" width="350"></a>
+    <img class="img-in-text" src="https://static.todamateria.com.br/upload/hi/st/historia-dos-dinossauros-og.jpg" alt="Um dinossauro feroz"></a>
+
+    <hr>
+    <pre>
+        <code>
+            let soma = 0;
+            inputsMais.forEach((input) => {
+                const valor = input.value;
+                const numero = Number(valor);
+
+                if (numero) {
+                    soma += numero;
+                }
+
+                console.log(soma);
+            });
+        </code>
+    </pre>
+    <blockquote cite="https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/learn/lecture/24624900#overview">Aqui é uma citação que não pertence ao paragrafo, mas posso fazer um paragrafo dentro do blockquote. 
+        <p>Viu, este é um paragrafo inserido na blackcode.</p> </blockquote></blockquote>
+
 </body>
 </html>
