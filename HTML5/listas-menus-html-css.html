@@ -13,7 +13,7 @@
             nav {
                 display: flex;
                 align-items: center;
-                background: rgba(0, 0, 0, 0.65);
+                background: rgba(195, 29, 29, 0.65);
                 height: 50px;
             }
 
@@ -28,6 +28,10 @@
                 text-transform: uppercase;
             }
 
+            nav a:hover {
+                background: rgba(0, 0, 0, 0.2);
+            }
+
             nav ul {
                 display: flex;
                 list-style: none;
@@ -36,13 +40,15 @@
         </style>
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Products</a></li>
-            </ul>
-        </nav>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                </ul>
+            </nav>
+        </aside>
         <ul>
             <li>Café</li>
             <li>Banana</li>
