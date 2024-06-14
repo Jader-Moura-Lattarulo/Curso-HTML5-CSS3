@@ -11,18 +11,30 @@
                     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
                     "Helvetica Neue", sans-serif;
             }
+            label nome {
+                cursor: pointer;
+                display: block;
+            }
+            label dev {
+            }
         </style>
     </head>
     <body>
         <form action="#" method="get" target="_blank" autocomplete="off">
-            <p>O formulário</p>
+            <p>Formulário</p>
             <p>
+                <label for="nome">Nome: </label>
                 <input
                     type="text"
                     id="nome"
                     name="nome"
                     placeholder="Digite seu nome"
+                    required
                 />
+            </p>
+            <p>
+                <label for="nome">Você é dev? </label>
+                <input type="checkbox" id="dev" name="dev" value="sim" />
             </p>
             <p>
                 <button type="submit">Submit</button>
