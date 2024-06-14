@@ -13,11 +13,31 @@
             }
             table {
                 border-collapse: collapse;
+                width: 100%;
             }
             table td,
             table th {
+                text-align: left;
                 border: 1px solid #ccc;
                 padding: 5px;
+            }
+
+            table caption {
+                caption-side: top;
+                text-align: left;
+                font-style: italic;
+                font-size: 14px;
+                margin: 5px 0;
+            }
+
+            tfoot td,
+            table th {
+                background: #ddd;
+                font-size: 12px;
+                margin: 1px;
+            }
+            tfoot td {
+                font-style: italic;
             }
         </style>
     </head>
@@ -87,6 +107,38 @@
                     <td>Novo estoque chegando em breve</td>
                 </tr>
             </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total de Produtos</td>
+                    <td colspan="2"></td>
+                    <td>230</td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td>Valor Total do Estoque</td>
+                    <td></td>
+                    <td>R$ 146.000,00</td>
+                    <td colspan="4"></td>
+                </tr>
+                <tr>
+                    <td>Data da Última Atualização</td>
+                    <td colspan="3"></td>
+                    <td>14/06/2024</td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Responsável pela Atualização</td>
+                    <td colspan="4"></td>
+                    <td>João da Silva</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Observações Gerais</td>
+                    <td colspan="5"></td>
+                    <td>Checar estoque diariamente</td>
+                </tr>
+            </tfoot>
         </table>
     </body>
 </html>
