@@ -39,106 +39,111 @@
             tfoot td {
                 font-style: italic;
             }
+            .responsive-table {
+                max-width: 100%;
+                overflow-x: auto;
+            }
         </style>
     </head>
     <body>
         <p>Lorem ipsum dolor sit.</p>
+        <div class="responsive-table">
+            <table>
+                <caption>
+                    Planilha de controle de inventário da J-Eletrônicos
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Nome do Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço Unitário</th>
+                        <th>Quantidade em Estoque</th>
+                        <th>Fornecedor</th>
+                        <th>Data de Aquisição</th>
+                        <th>Observações</th>
+                    </tr>
+                </thead>
 
-        <table>
-            <caption>
-                Planilha de controle de inventário da J-Eletrônicos
-            </caption>
-            <thead>
-                <tr>
-                    <th>Nome do Produto</th>
-                    <th>Categoria</th>
-                    <th>Preço Unitário</th>
-                    <th>Quantidade em Estoque</th>
-                    <th>Fornecedor</th>
-                    <th>Data de Aquisição</th>
-                    <th>Observações</th>
-                </tr>
-            </thead>
+                <tbody>
+                    <tr>
+                        <td>Smartphone X100</td>
+                        <td>Smartphones</td>
+                        <td>R$ 1.200,00</td>
+                        <td>50</td>
+                        <td>TecnoMax Distribuidora</td>
+                        <td>10/02/2024</td>
+                        <td>Novo lançamento</td>
+                    </tr>
+                    <tr>
+                        <td>Notebook Y200</td>
+                        <td>Notebooks</td>
+                        <td>R$ 3.500,00</td>
+                        <td>20</td>
+                        <td>Eletrônicos Supreme</td>
+                        <td>05/02/2024</td>
+                        <td>Desconto para atacado</td>
+                    </tr>
+                    <tr>
+                        <td>Tablet Z300</td>
+                        <td>Tablets</td>
+                        <td>R$ 1.000,00</td>
+                        <td>35</td>
+                        <td>TechNova Supply</td>
+                        <td>01/01/2024</td>
+                        <td>Esgotando rápido</td>
+                    </tr>
+                    <tr>
+                        <td>Fone de Ouvido A400</td>
+                        <td>Acessórios</td>
+                        <td>R$ 200,00</td>
+                        <td>100</td>
+                        <td>Distribuidora Futuro</td>
+                        <td>15/01/2024</td>
+                        <td>Alta demanda</td>
+                    </tr>
+                    <tr>
+                        <td>Monitor B500</td>
+                        <td>Monitores</td>
+                        <td>R$ 800,00</td>
+                        <td>25</td>
+                        <td>InovaTech Fornecedores</td>
+                        <td>20/01/2024</td>
+                        <td>Novo estoque chegando em breve</td>
+                    </tr>
+                </tbody>
 
-            <tbody>
-                <tr>
-                    <td>Smartphone X100</td>
-                    <td>Smartphones</td>
-                    <td>R$ 1.200,00</td>
-                    <td>50</td>
-                    <td>TecnoMax Distribuidora</td>
-                    <td>10/02/2024</td>
-                    <td>Novo lançamento</td>
-                </tr>
-                <tr>
-                    <td>Notebook Y200</td>
-                    <td>Notebooks</td>
-                    <td>R$ 3.500,00</td>
-                    <td>20</td>
-                    <td>Eletrônicos Supreme</td>
-                    <td>05/02/2024</td>
-                    <td>Desconto para atacado</td>
-                </tr>
-                <tr>
-                    <td>Tablet Z300</td>
-                    <td>Tablets</td>
-                    <td>R$ 1.000,00</td>
-                    <td>35</td>
-                    <td>TechNova Supply</td>
-                    <td>01/01/2024</td>
-                    <td>Esgotando rápido</td>
-                </tr>
-                <tr>
-                    <td>Fone de Ouvido A400</td>
-                    <td>Acessórios</td>
-                    <td>R$ 200,00</td>
-                    <td>100</td>
-                    <td>Distribuidora Futuro</td>
-                    <td>15/01/2024</td>
-                    <td>Alta demanda</td>
-                </tr>
-                <tr>
-                    <td>Monitor B500</td>
-                    <td>Monitores</td>
-                    <td>R$ 800,00</td>
-                    <td>25</td>
-                    <td>InovaTech Fornecedores</td>
-                    <td>20/01/2024</td>
-                    <td>Novo estoque chegando em breve</td>
-                </tr>
-            </tbody>
-
-            <tfoot>
-                <tr>
-                    <td>Total de Produtos</td>
-                    <td colspan="2"></td>
-                    <td>230</td>
-                    <td colspan="3"></td>
-                </tr>
-                <tr>
-                    <td>Valor Total do Estoque</td>
-                    <td></td>
-                    <td>R$ 146.000,00</td>
-                    <td colspan="4"></td>
-                </tr>
-                <tr>
-                    <td>Data da Última Atualização</td>
-                    <td colspan="3"></td>
-                    <td>14/06/2024</td>
-                    <td colspan="2"></td>
-                </tr>
-                <tr>
-                    <td>Responsável pela Atualização</td>
-                    <td colspan="4"></td>
-                    <td>João da Silva</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Observações Gerais</td>
-                    <td colspan="5"></td>
-                    <td>Checar estoque diariamente</td>
-                </tr>
-            </tfoot>
-        </table>
+                <tfoot>
+                    <tr>
+                        <td>Total de Produtos</td>
+                        <td colspan="2"></td>
+                        <td>230</td>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td>Valor Total do Estoque</td>
+                        <td></td>
+                        <td>R$ 146.000,00</td>
+                        <td colspan="4"></td>
+                    </tr>
+                    <tr>
+                        <td>Data da Última Atualização</td>
+                        <td colspan="3"></td>
+                        <td>14/06/2024</td>
+                        <td colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Responsável pela Atualização</td>
+                        <td colspan="4"></td>
+                        <td>João da Silva</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Observações Gerais</td>
+                        <td colspan="5"></td>
+                        <td>Checar estoque diariamente</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
     </body>
 </html>
