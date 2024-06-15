@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-p {
-    color: red;
+.heading {
+    color:blue
 }
 
-body div section p {
-    color: yellowgreen;
+p .maincontent {
+    color: purple;
 }
