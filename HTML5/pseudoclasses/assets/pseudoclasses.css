@@ -69,3 +69,10 @@ ul li:nth-child(3n) {
 ul li::after {
     content: ' - '
 }
+
+p::first-letter {
+    font-size: 50px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+}
