@@ -5,7 +5,7 @@
 }
 
 .grid .col {
-    width:  33.33%;
+    width:  auto;
     height: 300px;
     float: left;
     padding: 15px;
