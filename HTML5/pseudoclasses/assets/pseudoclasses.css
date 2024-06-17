@@ -76,3 +76,8 @@ p::first-letter {
     float: left;
     margin: 0 10px 10px 0;
 }
+
+p::selection {
+    background: black;
+    color: white;
+}
