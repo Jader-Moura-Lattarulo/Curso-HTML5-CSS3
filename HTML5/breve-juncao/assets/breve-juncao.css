@@ -76,6 +76,11 @@ body {
     background: turquoise;
 }
 
+.full-page-content {
+    max-width: 1200px;
+    padding: 0 30px;    
+}
+
 @media all and (max-width: 568px) {
     .grid .col {
         width: 100%
