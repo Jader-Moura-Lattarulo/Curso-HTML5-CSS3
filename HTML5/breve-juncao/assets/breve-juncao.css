@@ -12,6 +12,7 @@ body {
     max-width: 1200;
     padding: 15px;
     margin: 0 auto;
+    padding-top: 73px;
 }
 
 .grid:after {
@@ -56,7 +57,7 @@ body {
     color: #fff;
     padding: 20px;
     text-decoration: none;
-    transition: all 500ms;
+    transition: all 500ms ease-in-out;
 }
 
 .menu ul li a:hover {
