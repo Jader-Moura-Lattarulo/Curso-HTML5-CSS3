@@ -11,7 +11,11 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: [um] 1fr
+    [dois] 1fr
+    [tres] 2fr
+    [quatro];
+    /*grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));*/
     gap: 2rem;
 }
 
@@ -22,9 +26,8 @@ body {
 }
 
 .grid div:nth-child(5) {
-    grid-column-start: 1;
-    grid-column-end: 4;
     background-color: darkred;
+    grid-column: um / quatro;
 }
 
 .grid__robozinho {
