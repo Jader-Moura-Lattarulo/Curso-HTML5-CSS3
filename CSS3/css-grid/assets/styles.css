@@ -21,6 +21,12 @@ body {
     max-height: 7rem;
 }
 
+.grid div:nth-child(5) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: darkred;
+}
+
 .grid__robozinho {
     height: 100%;
 }
